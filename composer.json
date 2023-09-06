@@ -1,0 +1,18 @@
+{
+    "require": {
+        "monolog/monolog": "3.4.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dotenv\\": "src/"
+        },
+        "files": [
+            "System/Database/DB.php",
+            "System/Gateways/Person.php",
+            "System/Gateways/DbGateway.php",
+            "System/Controllers/PersonController.php"
+        ],
+        "classmap": []
+    }
+}
